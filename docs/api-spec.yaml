@@ -1,0 +1,33 @@
+openapi: 3.0.3
+info:
+  title: Oins Finance API
+  version: 0.1.0
+servers:
+  - url: /api/v1
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses: { "200": { description: OK } }
+  /auth/register:
+    post:
+      summary: Register a new user
+      responses: { "201": { description: Created } }
+  /auth/login:
+    post:
+      summary: Authenticate and receive a JWT
+      responses: { "200": { description: OK } }
+  /investments/plans:
+    get: { summary: List investment plans, responses: { "200": { description: OK } } }
+  /investments/summary:
+    get: { summary: Dashboard summary (auth), responses: { "200": { description: OK }, "401": { description: Unauthorized } } }
+  /investments/subscribe:
+    post: { summary: Subscribe to a plan (auth), responses: { "201": { description: Created } } }
+  /payments/deposit:
+    post: { summary: Initialise a bank or crypto deposit (auth), responses: { "201": { description: Created } } }
+  /payments/withdraw:
+    post: { summary: Request a withdrawal (auth), responses: { "201": { description: Created } } }
+  /webhooks/bank:
+    post: { summary: Bank provider callback (HMAC-signed), responses: { "200": { description: Received }, "401": { description: Invalid signature } } }
+  /webhooks/crypto:
+    post: { summary: Crypto provider callback (HMAC-signed), responses: { "200": { description: Received }, "401": { description: Invalid signature } } }

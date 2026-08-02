@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports: ["27017:27017"]
+    volumes: ["mongo_data:/data/db"]
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports: ["6379:6379"]
+
+  api:
+    build: ./backend
+    env_file: ./backend/.env
+    depends_on: [mongo, redis]
+    ports: ["5000:5000"]
+    command: npm run start
+
+  worker:
+    build: ./backend
+    env_file: ./backend/.env
+    depends_on: [mongo, redis]
+    command: npm run worker
+
+volumes:
+  mongo_data:
