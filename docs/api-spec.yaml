@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: Oins Finance API
-  version: 0.1.0
+  version: 0.1.0 
 servers:
   - url: /api/v1
 paths:
