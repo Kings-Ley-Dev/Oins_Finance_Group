@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod"; 
 
 export const depositSchema = z.object({
   method: z.enum(["bank", "crypto"]),
