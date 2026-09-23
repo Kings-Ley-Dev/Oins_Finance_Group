@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod"; 
 
 export const subscribeSchema = z.object({
   assetKey: z.string().min(1, "assetKey is required"),
