@@ -1,10 +1,10 @@
-import { User } from "../models/User.js";
-import { Wallet } from "../models/Wallet.js";
-import { Investment } from "../models/Investment.js";
-import { Transaction } from "../models/Transaction.js";
-import { Deposit } from "../models/Deposit.js";
+import { User } from "../models/User.js"; 
+import { Wallet } from "../models/Wallet.js";  
+import { Investment } from "../models/Investment.js";  
+import { Transaction } from "../models/Transaction.js";  
+import { Deposit } from "../models/Deposit.js"; 
 import { Withdrawal } from "../models/Withdrawal.js";
-import { KYC } from "../models/KYC.js";
+import { KYC } from "../models/KYC.js"; 
 import { Settings } from "../models/Settings.js";
 import { AuditLog } from "../models/AuditLog.js";
 import { confirmDeposit } from "./payment.service.js";
