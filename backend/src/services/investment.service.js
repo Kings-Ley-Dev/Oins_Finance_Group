@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
-import { Investment } from "../models/Investment.js";
-import { Wallet } from "../models/Wallet.js";
-import { Transaction } from "../models/Transaction.js";
+import mongoose from "mongoose"; 
+import { Investment } from "../models/Investment.js";  
+import { Wallet } from "../models/Wallet.js";  
+import { Transaction } from "../models/Transaction.js";  
 import { EarningsLog } from "../models/EarningsLog.js";
 import { PLAN_MAP, roiLabel, roiMidpoint } from "../config/plans.js";
 import { Settings } from "../models/Settings.js";
