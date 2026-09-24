@@ -1,11 +1,11 @@
-import { Server } from "socket.io";
-import jwt from "jsonwebtoken";
+import { Server } from "socket.io";   
+import jwt from "jsonwebtoken";    
 
-let io = null;
+let io = null;  
 
 // Attaches Socket.IO to the HTTP server, authenticates each connection with the
 // same JWT used for the REST API, and joins each user to a private room.
-export function initSockets(httpServer) {
+export function initSockets(httpServer) { 
   io = new Server(httpServer, {
     cors: { origin: process.env.CLIENT_URL || "https://oinsfinancegroup.com", credentials: true },
     transports: ["websocket", "polling"],
