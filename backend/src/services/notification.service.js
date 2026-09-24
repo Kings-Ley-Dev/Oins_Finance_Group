@@ -1,7 +1,7 @@
-import { Notification } from "../models/Notification.js";
-import { User } from "../models/User.js";
+import { Notification } from "../models/Notification.js";  
+import { User } from "../models/User.js";  
 import { sendMail } from "../config/mailer.js";
-import { emitToUser } from "../sockets/socketHandler.js";
+import { emitToUser } from "../sockets/socketHandler.js";  
 
 // Unified distribution: persists an in-app notification, pushes it over the
 // socket in real time, and (optionally) emails the user.
