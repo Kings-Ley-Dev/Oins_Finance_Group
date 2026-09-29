@@ -47,8 +47,8 @@ lives in `frontend/src/lib/site.js`.
 | 1 | Landing site, design system, routing, stores, API layer, auth + yield backend |
 | 2 | Auth wired to API (login/register/recovery), full client dashboard shell + growth chart |
 | 3 | Investments live: wallet, subscribe → portfolio → summary API, dashboard on real data |
-| 4 | Payments: sandbox bank & crypto deposits, withdrawals, HMAC-verified webhooks |
+| 4 | Payments: sandbox bank & crypto deposits, withdrawals, HMAC-verified webhooks. |
 | 5 | KYC uploads (Cloudinary), in-app + email notifications, realtime Socket.IO |
-| 6 | Admin panel: users, deposits, withdrawals, KYC review, ROI config, settings, audit trail |
+| 6 | Admin panel: users, deposits, withdrawals, KYC review, ROI config, settings, audit trail. |
 ```
 ```
