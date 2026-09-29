@@ -1,4 +1,4 @@
-// Normalises a blockchain/crypto provider callback into a common shape.
+// Normalises a blockchain/crypto provider callback into a common shape. 
 export function parseCryptoCallback(payload) {
   const confirmations = Number(payload.confirmations ?? payload.data?.confirmations ?? 0);
   return {
