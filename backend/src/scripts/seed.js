@@ -1,5 +1,5 @@
-import "dotenv/config";
-import { connectDB } from "../config/db.js";
+import "dotenv/config";   
+import { connectDB } from "../config/db.js";  
 import { User } from "../models/User.js";
 import { Wallet } from "../models/Wallet.js";
 import { Investment } from "../models/Investment.js";
