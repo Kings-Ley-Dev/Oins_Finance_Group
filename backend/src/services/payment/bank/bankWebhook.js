@@ -1,4 +1,4 @@
-// Normalises a bank provider callback payload into a common shape.
+// Normalises a bank provider callback payload into a common shape. 
 export function parseBankCallback(payload) {
   // Real providers send their own schema; map it here.
   return {
