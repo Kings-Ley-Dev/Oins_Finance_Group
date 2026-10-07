@@ -1,4 +1,4 @@
-// Shared between frontend and backend.
+// Shared between frontend and backend.   
 export const ROLES = { USER: "user", ADMIN: "admin" }; 
 
 export const TX_STATUS = {
