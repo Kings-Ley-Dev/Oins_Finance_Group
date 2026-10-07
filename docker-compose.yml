@@ -1,6 +1,6 @@
-version: "3.9"   
-services: 
-  mongo:
+version: "3.9"
+services:
+  mongo: 
     image: mongo:7
     restart: unless-stopped
     ports: ["27017:27017"] 
