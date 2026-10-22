@@ -3,7 +3,7 @@ export const formatUSD = (n) =>
     style: "currency",
     currency: "USD",
     maximumFractionDigits: 0,
-  }).format(Number(n) || 0);
+  }).format(Number(n) || 0);   
 
 export const formatCrypto = (n, symbol = "BTC") =>
   `${(Number(n) || 0).toFixed(6)} ${symbol}`;
