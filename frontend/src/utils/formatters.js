@@ -5,7 +5,7 @@ export const formatUSD = (n) =>
     maximumFractionDigits: 0,
   }).format(Number(n) || 0);   
 
-export const formatCrypto = (n, symbol = "BTC") =>
+export const formatCrypto = (n, symbol = "BTC") =>  
   `${(Number(n) || 0).toFixed(6)} ${symbol}`;
 
 export const formatDate = (d) =>
