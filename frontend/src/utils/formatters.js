@@ -6,7 +6,7 @@ export const formatUSD = (n) =>
   }).format(Number(n) || 0);   
 
 export const formatCrypto = (n, symbol = "BTC") =>  
-  `${(Number(n) || 0).toFixed(6)} ${symbol}`;
+  `${(Number(n) || 0).toFixed(6)} ${symbol}`;  
 
 export const formatDate = (d) =>
   new Date(d).toLocaleDateString("en-US", {
