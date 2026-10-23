@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { fetchSummary } from "@/lib/dashboardService";
 
-export const useDashboardStore = create((set, get) => ({
+export const useDashboardStore = create((set, get) => ({   
   status: "idle", // idle | loading | ready | error
   error: null,
   balance: null,
