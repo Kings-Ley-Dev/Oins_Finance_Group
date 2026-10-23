@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const usePaymentStore = create((set) => ({
+export const usePaymentStore = create((set) => ({   
   step: "form", // form | bank | crypto
   deposit: null, // the active deposit record returned by the API
   setStep: (step) => set({ step }),
