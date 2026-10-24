@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import PublicLayout from "@/layouts/PublicLayout";
 import UserLayout from "@/layouts/UserLayout";
-import AdminLayout from "@/layouts/AdminLayout";
+import AdminLayout from "@/layouts/AdminLayout";   
 import ProtectedRoute from "@/routes/ProtectedRoute";
 import AdminRoute from "@/routes/AdminRoute";
 import ScrollToTop from "@/routes/ScrollToTop";
