@@ -2,7 +2,7 @@ import { Copy } from "lucide-react";
 import { DashboardPage, StatCard } from "@/components/dashboard/StatCard";
 import Card, { CardBody } from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
-import { useUiStore } from "@/store/uiStore";
+import { useUiStore } from "@/store/uiStore";   
 import { useAuthStore } from "@/store/authStore";
 import { formatUSD } from "@/utils/formatters";
 
