@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { Landmark, Bitcoin, Copy, Check, RefreshCw, CheckCircle2, Clock, Send } from "lucide-react";
 import { DashboardPage } from "@/components/dashboard/StatCard";
-import Card, { CardBody } from "@/components/ui/Card";
+import Card, { CardBody } from "@/components/ui/Card";  
 import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
