@@ -6,7 +6,7 @@ import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import { requestWithdrawal } from "@/lib/paymentService";
 import { useUiStore } from "@/store/uiStore";
-import { useDashboardStore } from "@/store/dashboardStore";
+import { useDashboardStore } from "@/store/dashboardStore";   
 import { formatUSD } from "@/utils/formatters";
 
 const COINS = ["BTC", "ETH", "USDT"];
