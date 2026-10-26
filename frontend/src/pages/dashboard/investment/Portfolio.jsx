@@ -6,7 +6,7 @@ import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
 import { useDashboardStore } from "@/store/dashboardStore";
-import { formatUSD } from "@/utils/formatters";
+import { formatUSD } from "@/utils/formatters";   
 
 export default function Portfolio() {
   const { status, error, balance, portfolio, load } = useDashboardStore();
