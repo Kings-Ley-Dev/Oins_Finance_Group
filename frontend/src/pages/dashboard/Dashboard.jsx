@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, Plus } from "lucide-react";
-import { DashboardPage, StatCard } from "@/components/dashboard/StatCard";
+import { DashboardPage, StatCard } from "@/components/dashboard/StatCard";  
 import InvestmentGrowthChart from "@/components/dashboard/InvestmentGrowthChart";
 import { Loading, ErrorState, Empty } from "@/components/dashboard/DataState";
 import Card, { CardHeader, CardBody } from "@/components/ui/Card";
