@@ -5,7 +5,7 @@ import Button from "@/components/ui/Button";
 import Input from "@/components/ui/Input";
 import Icon from "@/components/ui/Icon";
 import { OPPORTUNITIES } from "@/lib/site";
-import { subscribePlan } from "@/lib/dashboardService";
+import { subscribePlan } from "@/lib/dashboardService";  
 import { useUiStore } from "@/store/uiStore";
 import { useDashboardStore } from "@/store/dashboardStore";
 import { formatUSD } from "@/utils/formatters";
