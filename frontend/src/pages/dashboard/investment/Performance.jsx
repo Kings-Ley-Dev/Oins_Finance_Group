@@ -5,7 +5,7 @@ import Card, { CardHeader, CardBody } from "@/components/ui/Card";
 import InvestmentGrowthChart from "@/components/dashboard/InvestmentGrowthChart";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
-import { useDashboardStore } from "@/store/dashboardStore";
+import { useDashboardStore } from "@/store/dashboardStore";   
 import { formatUSD } from "@/utils/formatters";
 
 export default function Performance() {
