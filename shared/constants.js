@@ -2,7 +2,7 @@
 export const ROLES = { USER: "user", ADMIN: "admin" }; 
 
 export const TX_STATUS = {
-  PENDING: "pending",
+  PENDING: "pending",   
   COMPLETED: "completed",
   FAILED: "failed",
   CANCELLED: "cancelled",
