@@ -7,7 +7,7 @@ import Input from "@/components/ui/Input";
 import { authApi } from "@/api/authApi";
 import { useAuthStore } from "@/store/authStore";
 import { useUiStore } from "@/store/uiStore";
-import { isEmail } from "@/utils/validators";
+import { isEmail } from "@/utils/validators";    
 
 export default function AdminRegister() {
   const navigate = useNavigate();
