@@ -5,7 +5,7 @@ import AuthShell from "@/components/common/AuthShell";
 import Button from "@/components/ui/Button";
 import Input from "@/components/ui/Input";
 import { authApi } from "@/api/authApi";
-import { useUiStore } from "@/store/uiStore";
+import { useUiStore } from "@/store/uiStore";   
 import { minLen } from "@/utils/validators";
 
 export default function ResetPassword() {
