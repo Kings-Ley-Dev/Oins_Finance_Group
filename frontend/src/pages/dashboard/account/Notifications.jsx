@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { DashboardPage } from "@/components/dashboard/StatCard";
 import Card, { CardHeader, CardBody } from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
-import { useNotificationStore } from "@/store/notificationStore";
+import { useNotificationStore } from "@/store/notificationStore";  
 
 const PREFS = [
   { key: "earnings", label: "Daily earnings posted", desc: "When yield is added to a plan." },
