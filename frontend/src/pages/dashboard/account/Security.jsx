@@ -4,7 +4,7 @@ import Card, { CardHeader, CardBody } from "@/components/ui/Card";
 import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
-import { useUiStore } from "@/store/uiStore";
+import { useUiStore } from "@/store/uiStore";   
 
 export default function Security() {
   const pushToast = useUiStore((s) => s.pushToast);
