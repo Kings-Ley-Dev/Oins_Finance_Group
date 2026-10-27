@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { UploadCloud, FileCheck2, CheckCircle2 } from "lucide-react";
-import { DashboardPage } from "@/components/dashboard/StatCard";
+import { DashboardPage } from "@/components/dashboard/StatCard";  
 import Card, { CardBody } from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
