@@ -3,8 +3,8 @@ import { Link, useSearchParams } from "react-router-dom";
 import { MailCheck, Loader2 } from "lucide-react";
 import AuthShell from "@/components/common/AuthShell";
 import Button from "@/components/ui/Button";
-import { authApi } from "@/api/authApi";
-
+import { authApi } from "@/api/authApi";  
+ 
 export default function VerifyEmail() {
   const [params] = useSearchParams();
   const token = params.get("token");
