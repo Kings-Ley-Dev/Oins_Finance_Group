@@ -14,7 +14,7 @@ oins-finance/
 └── docker-compose.yml
 ```
 
-## Run the frontend
+## Run the frontend  
 ```bash
 cd frontend
 npm install
