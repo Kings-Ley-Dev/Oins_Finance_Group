@@ -1,7 +1,7 @@
 import { DashboardPage } from "@/components/dashboard/StatCard";
 import { Loading, ErrorState } from "@/components/dashboard/DataState";
 import AdminTable from "@/components/admin/AdminTable";
-import { useAdminData } from "@/components/admin/useAdminData";
+import { useAdminData } from "@/components/admin/useAdminData";  
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import { adminService } from "@/lib/adminService";
