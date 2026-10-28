@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { DashboardPage } from "@/components/dashboard/StatCard";
+import { DashboardPage } from "@/components/dashboard/StatCard";  
 import { Loading, ErrorState } from "@/components/dashboard/DataState";
 import AdminTable from "@/components/admin/AdminTable";
 import { useAdminData } from "@/components/admin/useAdminData";
