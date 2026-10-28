@@ -5,7 +5,7 @@ import Card, { CardBody } from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
 import { useAdminData } from "@/components/admin/useAdminData";
-import { adminService } from "@/lib/adminService";
+import { adminService } from "@/lib/adminService";   
 import { OPPORTUNITIES } from "@/lib/site";
 import { useUiStore } from "@/store/uiStore";
 
