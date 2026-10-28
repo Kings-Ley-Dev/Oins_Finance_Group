@@ -4,8 +4,8 @@ import Card, { CardBody } from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import { useUiStore } from "@/store/uiStore";   
 import { useAuthStore } from "@/store/authStore";
-import { formatUSD } from "@/utils/formatters";
-
+import { formatUSD } from "@/utils/formatters";  
+ 
 export default function Referral() {
   const pushToast = useUiStore((s) => s.pushToast);
   const user = useAuthStore((s) => s.user);
