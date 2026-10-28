@@ -3,7 +3,7 @@ import { DashboardPage, StatCard } from "@/components/dashboard/StatCard";
 import { Loading, ErrorState } from "@/components/dashboard/DataState";
 import Card, { CardHeader, CardBody } from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
-import { useAdminData } from "@/components/admin/useAdminData";
+import { useAdminData } from "@/components/admin/useAdminData";   
 import { adminService } from "@/lib/adminService";
 import { formatUSD } from "@/utils/formatters";
 
