@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { LegalShell, Section, Bullets, Mail } from "@/components/common/Legal";
 
-export default function Terms() {
+export default function Terms() {   
   return (
     <LegalShell
       title="Terms of Use"
