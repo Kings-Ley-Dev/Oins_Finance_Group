@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import PageShell from "@/components/common/PageShell";
+import PageShell from "@/components/common/PageShell";   
 import { OPPORTUNITIES } from "@/lib/site";
 import Icon from "@/components/ui/Icon";
 import Button from "@/components/ui/Button";
