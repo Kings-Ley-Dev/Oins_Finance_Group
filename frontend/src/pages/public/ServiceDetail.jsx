@@ -10,7 +10,7 @@ import Button from "@/components/ui/Button";
 
 const CARD_ICONS = {
   ShieldCheck, BadgeCheck, Lightbulb, HeartHandshake, Leaf,
-  Star, Trophy, MapPin, Sparkles, Headphones, HandCoins, TrendingUp,
+  Star, Trophy, MapPin, Sparkles, Headphones, HandCoins, TrendingUp,  
 };
 
 function GalleryBlock({ service }) {
