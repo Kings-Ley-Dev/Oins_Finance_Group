@@ -2,7 +2,7 @@ import { ArrowRight, ShieldCheck, Eye, Layers, Sparkles, Target, Compass } from 
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
-import { STATS } from "@/lib/site";
+import { STATS } from "@/lib/site";   
 
 const VALUES = [
   { icon: Eye, title: "Transparency", body: "Real-time tracking and clear documentation on every position - you always know where your capital is." },
