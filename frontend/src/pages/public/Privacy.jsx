@@ -3,7 +3,7 @@ import { LegalShell, Section, SubHeading, Bullets, Mail } from "@/components/com
 export default function Privacy() {
   return (
     <LegalShell
-      title="Privacy Policy"
+      title="Privacy Policy"  
       updated="June 2026"
       intro="This Privacy Policy explains how Oins Finance Group collects, uses, discloses, and safeguards your information when you use our Services through our website."
     >
