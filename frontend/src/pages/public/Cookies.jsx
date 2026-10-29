@@ -1,4 +1,4 @@
-import { LegalShell, Section, SubHeading, Bullets, Mail } from "@/components/common/Legal";
+import { LegalShell, Section, SubHeading, Bullets, Mail } from "@/components/common/Legal";   
 
 export default function Cookies() {
   return (
