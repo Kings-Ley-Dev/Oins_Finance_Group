@@ -1,5 +1,5 @@
 import { paymentApi } from "@/api/paymentApi";
-import { useAuthStore } from "@/store/authStore";
+import { useAuthStore } from "@/store/authStore";  
 
 const isDemo = () => useAuthStore.getState().token === "demo-token";
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
