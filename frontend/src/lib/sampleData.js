@@ -1,7 +1,7 @@
 // SAMPLE DATA - used to render the dashboard before the Phase 3 investment
 // endpoints exist. Replace each export with investmentApi calls when ready.
 
-export const SAMPLE_BALANCE = {
+export const SAMPLE_BALANCE = {   
   total: 18450.32,
   invested: 15000,
   available: 2450.32,
