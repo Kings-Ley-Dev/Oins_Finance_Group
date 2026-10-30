@@ -1,7 +1,7 @@
 // SAMPLE admin data for demo-admin preview (no backend).
 export const ADMIN_OVERVIEW = { users: 2547, totalDeposits: 4820500, totalInvested: 3910000, withdrawalsPending: 7, activeInvestments: 1382, kycPending: 12 };
 
-export const ADMIN_USERS = [
+export const ADMIN_USERS = [   
   { id: "u1", fullName: "Marcus Brown", email: "demo@oinsfinance.com", role: "user", banned: false, available: 2450.32, invested: 15000, createdAt: "2026-02-11" },
   { id: "u2", fullName: "Aïcha Diallo", email: "aicha@example.com", role: "user", banned: false, available: 880, invested: 6200, createdAt: "2026-03-02" },
   { id: "u3", fullName: "Liam O'Connor", email: "liam@example.com", role: "user", banned: true, available: 0, invested: 0, createdAt: "2026-01-19" },
