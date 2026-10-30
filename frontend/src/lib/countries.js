@@ -1,7 +1,7 @@
 // Country list for the phone field - EU/European countries are listed first,
 // followed by the rest of the world.
 export const COUNTRIES = [
-  // - European Union -
+  // - European Union -  
   { code: "AT", name: "Austria", dial: "+43", flag: "🇦🇹" },
   { code: "BE", name: "Belgium", dial: "+32", flag: "🇧🇪" },
   { code: "BG", name: "Bulgaria", dial: "+359", flag: "🇧🇬" },
