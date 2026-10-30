@@ -2,7 +2,7 @@ import { adminApi } from "@/api/adminApi";
 import { useAuthStore } from "@/store/authStore";
 import * as S from "@/lib/adminSampleData";
 
-const isDemo = () => useAuthStore.getState().token === "demo-admin-token";
+const isDemo = () => useAuthStore.getState().token === "demo-admin-token";  
 const d = (v) => new Promise((r) => setTimeout(() => r(v), 220));
 
 export const adminService = {
