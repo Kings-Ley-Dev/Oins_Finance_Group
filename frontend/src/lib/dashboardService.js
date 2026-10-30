@@ -1,4 +1,4 @@
-import { investmentApi } from "@/api/investmentApi";
+import { investmentApi } from "@/api/investmentApi";   
 import { useAuthStore } from "@/store/authStore";
 import {
   SAMPLE_BALANCE,
