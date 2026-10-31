@@ -7,9 +7,9 @@ import Sidebar from "@/components/common/Sidebar";
 import Header from "@/components/common/Header";
 
 const ADMIN_NAV = [
-  { group: "Control", items: [{ to: "/admin", label: "Dashboard", icon: LayoutDashboard, end: true }] },
+  { group: "Control", items: [{ to: "/admin", label: "Dashboard", icon: LayoutDashboard, end: true }] },  
   { group: "Management", items: [
-    { to: "/admin/users", label: "Users", icon: Users },
+    { to: "/admin/users", label: "Users", icon: Users },  
     { to: "/admin/investments", label: "Investments", icon: Briefcase },
   ]},
   { group: "Payments", items: [
