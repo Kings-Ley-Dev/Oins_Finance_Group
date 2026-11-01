@@ -1,4 +1,4 @@
-import api from "./axiosInstance";
+import api from "./axiosInstance"; 
 
 export const notificationApi = {
   list: () => api.get("/users/notifications"),
