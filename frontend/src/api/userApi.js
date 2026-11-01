@@ -1,4 +1,4 @@
-import api from "./axiosInstance";
+import api from "./axiosInstance";  
 
 export const userApi = {
   updateProfile: (payload) => api.patch("/users/profile", payload),
