@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback } from "react";  
 
 export function useAdminData(loader, deps = []) {
   const [data, setData] = useState(null);
