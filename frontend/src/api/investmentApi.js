@@ -1,4 +1,4 @@
-import api from "./axiosInstance";
+import api from "./axiosInstance";  
 
 export const investmentApi = {
   plans: () => api.get("/investments/plans"),
