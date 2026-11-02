@@ -1,6 +1,6 @@
 export default function AdminTable({ columns, rows, empty = "Nothing here yet.", keyField = "id" }) {
   if (!rows?.length) return <p className="rounded-card border border-gold-deep/15 bg-charcoal py-12 text-center text-sm text-muted">{empty}</p>;
-  return (
+  return ( 
     <div className="overflow-x-auto rounded-card border border-gold-deep/15 bg-charcoal">
       <table className="w-full min-w-[640px] text-sm">
         <thead>
