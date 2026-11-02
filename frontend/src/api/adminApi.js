@@ -2,7 +2,7 @@ import api from "./axiosInstance";
 
 export const adminApi = {
   overview: () => api.get("/admin/overview"),
-  users: () => api.get("/admin/users"),
+  users: () => api.get("/admin/users"),  
   banUser: (id, banned) => api.patch(`/admin/users/${id}/ban`, { banned }),
   adjustBalance: (id, delta, note) => api.patch(`/admin/users/${id}/balance`, { delta, note }),
   investments: () => api.get("/admin/investments"),
