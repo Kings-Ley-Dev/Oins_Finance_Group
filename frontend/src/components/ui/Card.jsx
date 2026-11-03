@@ -1,7 +1,7 @@
 export default function Card({ className = "", children, as: Tag = "div", ...rest }) {
   return (
     <Tag
-      className={`rounded-card border border-gold-deep/15 bg-charcoal ${className}`}
+      className={`rounded-card border border-gold-deep/15 bg-charcoal ${className}`}  
       {...rest}
     >
       {children}
