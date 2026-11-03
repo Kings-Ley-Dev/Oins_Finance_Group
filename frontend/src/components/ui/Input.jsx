@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 
 const Input = forwardRef(function Input(
-  { label, error, hint, className = "", id, icon = null, ...rest },
+  { label, error, hint, className = "", id, icon = null, ...rest },   
   ref
 ) {
   const inputId = id || rest.name;
