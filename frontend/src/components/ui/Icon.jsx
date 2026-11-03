@@ -4,7 +4,7 @@ import {
   Scissors,
   DoorOpen,
   StarHalf,
-  UserPlus,
+  UserPlus,  
   ListChecks,
   TrendingUp,
   Wallet,
