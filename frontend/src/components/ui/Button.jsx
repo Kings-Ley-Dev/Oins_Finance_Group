@@ -8,7 +8,7 @@ const VARIANTS = {
   outline:
     "bg-transparent text-gold border border-gold-deep/60 hover:bg-gold/10 hover:border-gold",
   ghost: "bg-transparent text-parchment/80 hover:text-gold",
-  dark: "bg-cocoa text-cream hover:bg-cocoa/90",
+  dark: "bg-cocoa text-cream hover:bg-cocoa/90",  
 };
 
 const SIZES = {
