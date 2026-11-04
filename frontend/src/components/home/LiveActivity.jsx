@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";  
 import { TrendingUp, ArrowDownToLine, ArrowUpFromLine, X } from "lucide-react";
 
 // Rotating social-proof feed shown bottom-right on the homepage.
