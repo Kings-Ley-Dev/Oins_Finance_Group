@@ -6,7 +6,7 @@ import Icon from "@/components/ui/Icon";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-ink-900 pb-16 pt-[120px] sm:pb-20">
+    <section className="relative overflow-hidden bg-ink-900 pb-16 pt-[120px] sm:pb-20">   
       {/* Background image */}
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-center"
