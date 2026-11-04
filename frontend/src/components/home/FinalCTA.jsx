@@ -6,8 +6,8 @@ import Badge from "@/components/ui/Badge";
 export default function FinalCTA() {
   const c = FINAL_CTA;
   return (
-    <section className="bg-ink py-16 sm:py-20">   
-      <div className="shell">
+    <section className="bg-ink py-16 sm:py-20">
+      <div className="shell"> 
         <div className="relative overflow-hidden rounded-[28px] border border-gold-deep/25 bg-gradient-to-br from-charcoal-50 via-charcoal to-ink-900 px-6 py-16 text-center sm:px-12 sm:py-20">
           <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-gold/15 blur-3xl" />
           <div className="pointer-events-none absolute -bottom-24 -left-16 h-72 w-72 rounded-full bg-gold-bright/10 blur-3xl" />
