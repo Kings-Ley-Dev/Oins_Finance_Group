@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
-import { Quote, Star, ChevronLeft, ChevronRight } from "lucide-react";
+import { Quote, Star, ChevronLeft, ChevronRight } from "lucide-react";  
 import { TESTIMONIALS } from "@/lib/site";
 
-const initials = (name) => name.split(" ").map((n) => n[0]).join("").slice(0, 2);  
+const initials = (name) => name.split(" ").map((n) => n[0]).join("").slice(0, 2); 
 
 export default function Testimonial() {
   const [i, setI] = useState(0);
