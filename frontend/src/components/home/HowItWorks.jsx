@@ -4,7 +4,7 @@ import Icon from "@/components/ui/Icon";
 
 export default function HowItWorks() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-cream-200 to-sand/70 py-20 sm:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-b from-cream-200 to-sand/70 py-20 sm:py-24">   
       <div className="shell">
         <div className="text-center">
           <span className="eyebrow mx-auto border-cocoa/15 bg-cream/70 text-cocoa">
