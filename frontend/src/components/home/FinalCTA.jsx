@@ -4,7 +4,7 @@ import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
 
 export default function FinalCTA() {
-  const c = FINAL_CTA;
+  const c = FINAL_CTA;  
   return (
     <section className="bg-ink py-16 sm:py-20">
       <div className="shell"> 
