@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { OPPORTUNITIES } from "@/lib/site";
 import Icon from "@/components/ui/Icon";
 import Button from "@/components/ui/Button";
-import Reveal from "@/components/common/Reveal";  
+import Reveal from "@/components/common/Reveal"; 
 
 function OpportunityCard({ o }) {
-  const isExternal = Boolean(o.externalUrl);
+  const isExternal = Boolean(o.externalUrl);  
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-card border border-gold-deep/15 bg-charcoal transition-all duration-300 hover:-translate-y-1 hover:border-gold-deep/40 hover:shadow-lift">
       {/* Sector photo header */}
