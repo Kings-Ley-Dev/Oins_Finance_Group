@@ -4,7 +4,7 @@ import { TrendingUp, ArrowDownToLine, ArrowUpFromLine, X } from "lucide-react";
 // Rotating social-proof feed shown bottom-right on the homepage.
 const ACTIVITY = [
   { name: "Nasser", country: "Dubai", action: "withdrew", detail: "0.8 BTC" },
-  { name: "Yildiz", country: "Turkey", action: "invested", detail: "$10,000 in Oil & Gas" },
+  { name: "Yildiz", country: "Turkey", action: "invested", detail: "$10,000 in Oil & Gas" },  
   { name: "Sofia", country: "Italy", action: "invested", detail: "$50,000 in Real Estate" },
   { name: "Liam", country: "Ireland", action: "deposited", detail: "$33,000" },
   { name: "Mateusz", country: "Poland", action: "invested", detail: "$18,000 in AI Stock" },
