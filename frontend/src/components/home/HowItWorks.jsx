@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";  
 import { STEPS } from "@/lib/site";
 import Icon from "@/components/ui/Icon";
 
