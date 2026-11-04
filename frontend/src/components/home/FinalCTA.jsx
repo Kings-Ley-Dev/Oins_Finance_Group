@@ -14,7 +14,7 @@ export default function FinalCTA() {
           <div className="pointer-events-none absolute inset-0 grid-bg opacity-40" />
 
           <div className="relative">
-            <Badge tone="gold" className="mx-auto">
+            <Badge tone="gold" className="mx-auto">  
               <span className="eyebrow-dot" />
               {c.badge}
             </Badge>
