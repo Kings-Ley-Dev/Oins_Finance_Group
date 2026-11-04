@@ -1,7 +1,7 @@
-import { WHY } from "@/lib/site";
+import { WHY } from "@/lib/site";  
 import Icon from "@/components/ui/Icon";
 
-function FeatureCard({ f, large }) {  
+function FeatureCard({ f, large }) {
   return (
     <div
       className={`group relative rounded-card border border-cocoa/10 bg-cream-200 p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-cream ${
