@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { OPPORTUNITIES } from "@/lib/site";
 import Icon from "@/components/ui/Icon";
 import Button from "@/components/ui/Button";
-import Reveal from "@/components/common/Reveal";
+import Reveal from "@/components/common/Reveal";  
 
 function OpportunityCard({ o }) {
   const isExternal = Boolean(o.externalUrl);
