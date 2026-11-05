@@ -1,4 +1,4 @@
-import { Clock } from "lucide-react";
+import { Clock } from "lucide-react"; 
 import CopyField from "./CopyField";
 import { formatUSD } from "@/utils/formatters";
 
