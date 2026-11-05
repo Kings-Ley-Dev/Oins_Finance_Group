@@ -5,12 +5,12 @@ export function StatCard({ icon, label, value, sub, accent = false }) {
     <div
       className={`rounded-card border p-5 ${
         accent
-          ? "border-gold-deep/40 bg-gradient-to-br from-charcoal-50 to-charcoal" 
+          ? "border-gold-deep/40 bg-gradient-to-br from-charcoal-50 to-charcoal"  
           : "border-gold-deep/15 bg-charcoal"
       }`}
     >
       <div className="flex items-center justify-between">
-        <span className="text-[11px] uppercase tracking-wider text-muted">{label}</span>
+        <span className="text-[11px] uppercase tracking-wider text-muted">{label}</span> 
         {icon && (
           <span
             className={`grid h-9 w-9 place-items-center rounded-lg ${
