@@ -2,9 +2,9 @@ import { Clock } from "lucide-react";
 import CopyField from "./CopyField";
 import { formatUSD } from "@/utils/formatters";
 
-export default function BankTransfer({ deposit }) {  
-  const va = deposit.virtualAccount || {};
-  return (
+export default function BankTransfer({ deposit }) {
+  const va = deposit.virtualAccount || {}; 
+  return ( 
     <div className="space-y-4">
       <div className="rounded-xl border border-gold-deep/20 bg-gradient-to-br from-charcoal-50 to-charcoal p-5 text-center">
         <div className="text-xs uppercase tracking-wider text-muted">Amount to transfer</div>
