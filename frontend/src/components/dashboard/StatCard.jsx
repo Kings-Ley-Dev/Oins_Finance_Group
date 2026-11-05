@@ -1,6 +1,6 @@
 import Icon from "@/components/ui/Icon";
 
-export function StatCard({ icon, label, value, sub, accent = false }) {
+export function StatCard({ icon, label, value, sub, accent = false }) {  
   return (
     <div
       className={`rounded-card border p-5 ${
