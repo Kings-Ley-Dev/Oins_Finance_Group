@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Copy, Check } from "lucide-react";
 
 export default function CopyField({ label, value, mono = true }) {
-  const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState(false);  
   const copy = async () => {
     try {
       await navigator.clipboard.writeText(value);
