@@ -5,7 +5,7 @@ export function Loading({ label = "Loading…" }) {
   return (
     <div className="grid place-items-center py-20 text-muted">
       <Loader2 className="animate-spin text-gold" size={26} />
-      <p className="mt-3 text-sm">{label}</p> 
+      <p className="mt-3 text-sm">{label}</p>  
     </div>
   );
 }
