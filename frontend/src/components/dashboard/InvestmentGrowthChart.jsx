@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
 import { formatUSD, formatDate } from "@/utils/formatters";  
 
-// Lightweight, dependency-free area + line chart tuned to the gold theme.
-export default function InvestmentGrowthChart({ data = [], height = 240 }) { 
+// Lightweight, dependency-free area + line chart tuned to the gold theme.  
+export default function InvestmentGrowthChart({ data = [], height = 240 }) {  
   const [hover, setHover] = useState(null);
 
   const W = 720;
