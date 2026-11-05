@@ -1,8 +1,8 @@
 import { QRCodeSVG } from "qrcode.react";
 import CopyField from "./CopyField";
-import { formatUSD } from "@/utils/formatters";
+import { formatUSD } from "@/utils/formatters"; 
 
-export default function CryptoDeposit({ deposit }) {
+export default function CryptoDeposit({ deposit }) { 
   return (
     <div className="space-y-4">  
       <div className="flex flex-col items-center gap-3 rounded-xl border border-gold-deep/20 bg-charcoal-50 p-5">
