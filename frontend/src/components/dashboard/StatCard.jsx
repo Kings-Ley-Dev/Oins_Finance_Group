@@ -5,7 +5,7 @@ export function StatCard({ icon, label, value, sub, accent = false }) {
     <div
       className={`rounded-card border p-5 ${
         accent
-          ? "border-gold-deep/40 bg-gradient-to-br from-charcoal-50 to-charcoal"
+          ? "border-gold-deep/40 bg-gradient-to-br from-charcoal-50 to-charcoal" 
           : "border-gold-deep/15 bg-charcoal"
       }`}
     >
