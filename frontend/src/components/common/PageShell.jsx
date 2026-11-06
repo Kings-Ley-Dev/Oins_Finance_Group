@@ -3,8 +3,8 @@ import Badge from "@/components/ui/Badge";
 export default function PageShell({ eyebrow, title, subtitle, children }) {
   return (
     <div className="relative bg-ink-radial pt-[120px]"> 
-      <div className="pointer-events-none absolute inset-0 grid-bg opacity-40" />   
-      <div className="shell relative pb-16">
+      <div className="pointer-events-none absolute inset-0 grid-bg opacity-40" /> 
+      <div className="shell relative pb-16">  
         {eyebrow && (
           <Badge tone="gold" className="mb-5">
             <span className="eyebrow-dot" />
