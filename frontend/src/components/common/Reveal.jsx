@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 // mirroring the Webflow layout76 entrance (translate3d up + scale3d + opacity).
 // By default it re-triggers every time the element enters the viewport so the
 // animation is clearly tied to scrolling. Pass `once` to play it a single time.
-export default function Reveal({ children, delay = 0, once = false, className = "" }) {
+export default function Reveal({ children, delay = 0, once = false, className = "" }) {  
   const ref = useRef(null);
   const [shown, setShown] = useState(false);
 
