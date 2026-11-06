@@ -6,9 +6,9 @@ import {
 import { useUiStore } from "@/store/uiStore";
 
 export const USER_NAV = [
-  { group: "Overview", items: [{ to: "/dashboard", label: "Dashboard", icon: LayoutDashboard, end: true }] },  
+  { group: "Overview", items: [{ to: "/dashboard", label: "Dashboard", icon: LayoutDashboard, end: true }] }, 
   { group: "Investments", items: [
-    { to: "/dashboard/plans", label: "Plans", icon: Layers },
+    { to: "/dashboard/plans", label: "Plans", icon: Layers }, 
     { to: "/dashboard/portfolio", label: "Portfolio", icon: Briefcase },
     { to: "/dashboard/performance", label: "Performance", icon: LineChart },
   ]},
