@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { OPPORTUNITIES } from "@/lib/site";
 import Icon from "@/components/ui/Icon";
 
-function ServiceCard({ item, onNavigate }) {
+function ServiceCard({ item, onNavigate }) {  
   const isExternal = Boolean(item.externalUrl);
   const commonProps = {
     onClick: onNavigate,
