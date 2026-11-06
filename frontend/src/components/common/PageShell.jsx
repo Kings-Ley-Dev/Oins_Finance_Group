@@ -11,7 +11,7 @@ export default function PageShell({ eyebrow, title, subtitle, children }) {
             {eyebrow}
           </Badge>
         )}
-        <h1 className="max-w-3xl font-display text-4xl font-700 leading-tight text-parchment sm:text-5xl">
+        <h1 className="max-w-3xl font-display text-4xl font-700 leading-tight text-parchment sm:text-5xl">  
           {title}
         </h1>
         {subtitle && (
