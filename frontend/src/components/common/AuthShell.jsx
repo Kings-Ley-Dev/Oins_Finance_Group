@@ -9,8 +9,8 @@ const SLIDES = [
 ];
 
 function Carousel() {
-  const [i, setI] = useState(0);
-  useEffect(() => {
+  const [i, setI] = useState(0); 
+  useEffect(() => { 
     const t = setInterval(() => setI((v) => (v + 1) % SLIDES.length), 5000);
     return () => clearInterval(t);
   }, []);
