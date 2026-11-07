@@ -5,10 +5,10 @@ import { FOOTER } from "@/lib/site";
 function Column({ title, links }) {
   return (
     <div>
-      <h4 className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-gold">
+      <h4 className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-gold">  
         {title}
-      </h4>
-      <ul className="space-y-2.5">
+      </h4> 
+      <ul className="space-y-2.5"> 
         {links.map((l, i) => {
           const cls =
             "group inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-parchment";
