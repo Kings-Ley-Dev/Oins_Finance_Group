@@ -5,8 +5,8 @@ export function LegalShell({ title, updated, intro, children }) {
     <article>
       {/* Header */}
       <section className="relative overflow-hidden bg-ink-radial pt-[120px]">
-        <div className="pointer-events-none absolute inset-0 grid-bg opacity-40" />
-        <div className="pointer-events-none absolute right-0 top-0 h-80 w-80 rounded-full bg-gold/10 blur-[120px]" />
+        <div className="pointer-events-none absolute inset-0 grid-bg opacity-40" />  
+        <div className="pointer-events-none absolute right-0 top-0 h-80 w-80 rounded-full bg-gold/10 blur-[120px]" /> 
         <div className="shell relative pb-12">
           <span className="eyebrow"><span className="eyebrow-dot" />Legal</span>
           <h1 className="mt-4 font-display text-4xl font-700 leading-tight text-parchment sm:text-5xl">{title}</h1>
