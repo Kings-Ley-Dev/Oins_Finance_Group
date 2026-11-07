@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
-const SLIDES = [
+const SLIDES = [ 
   { img: "/images/hero-bg.jpg", title: "Grow your wealth with secured, real-world assets.", text: "Transparent, regulated and collateral-backed - built for steady returns." },
   { img: "/images/services/real-estate.jpg", title: "Invest across eight specialized sectors.", text: "Real estate, energy, agriculture, digital assets and more." },
   { img: "/images/services/agro-farming.jpg", title: "Finance real-world businesses.", text: "From farmland to fintech, every position is independently verified." },
