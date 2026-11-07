@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect, useMemo } from "react";
 import { ChevronDown, Search, Check } from "lucide-react";
-import { COUNTRIES } from "@/lib/countries";
+import { COUNTRIES } from "@/lib/countries";  
 
 export default function CountryPhoneInput({ country, phone, onCountry, onPhone, error }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false); 
   const [q, setQ] = useState("");
   const ref = useRef(null);
   const selected = COUNTRIES.find((c) => c.code === country) || null;
