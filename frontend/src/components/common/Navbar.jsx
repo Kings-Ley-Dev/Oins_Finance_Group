@@ -7,7 +7,7 @@ import ServicesMega from "@/components/common/ServicesMega";
 
 function Brand() {
   return (
-    <Link to="/" className="flex items-center" aria-label="Oins Finance Group - home">
+    <Link to="/" className="flex items-center" aria-label="Oins Finance Group - home">  
       <img src="/logo-full.png" alt="Oins Finance Group" className="h-9 w-auto sm:h-10" />  
     </Link>
   ); 
