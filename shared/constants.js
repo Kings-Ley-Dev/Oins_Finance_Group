@@ -8,7 +8,7 @@ export const TX_STATUS = {
   CANCELLED: "cancelled",
 };
 
-export const INVESTMENT_STATUS = {
+export const INVESTMENT_STATUS = {  
   ACTIVE: "active",
   MATURED: "matured",
   CLOSED: "closed",
