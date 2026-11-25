@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */ 
+/** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
@@ -9,7 +9,7 @@ export default {
           DEFAULT: "#0A0807",
           900: "#050404",
           800: "#0A0807",
-          700: "#100C09",
+          700: "#100C09",  
         },
         // Dark cards / panels
         charcoal: {
