@@ -1,7 +1,7 @@
-import AppRoutes from "@/routes/AppRoutes"; 
-import ToastHost from "@/components/ui/Toast";
+import AppRoutes from "@/routes/AppRoutes";
+import ToastHost from "@/components/ui/Toast"; 
 
-export default function App() {
+export default function App() { 
   return (
     <>
       <AppRoutes />
