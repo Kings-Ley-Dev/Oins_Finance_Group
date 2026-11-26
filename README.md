@@ -1,4 +1,4 @@
-# Oins Finance Group (Investment Platform)
+# Oins Finance Group (Investment Platform) 
 
 A full-stack (MERN) investment platform: a dark-gold marketing site plus a client
 portal and admin panel, backed by Node/Express, MongoDB, Redis and BullMQ.
