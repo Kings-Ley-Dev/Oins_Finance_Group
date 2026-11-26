@@ -1,9 +1,9 @@
 import { create } from "zustand";
 
-export const useUiStore = create((set) => ({
-  sidebarOpen: false,  
+export const useUiStore = create((set) => ({ 
+  sidebarOpen: false,
   toasts: [],
-  toggleSidebar: () => set((s) => ({ sidebarOpen: !s.sidebarOpen })),
+  toggleSidebar: () => set((s) => ({ sidebarOpen: !s.sidebarOpen })), 
   pushToast: (t) =>
     set((s) => ({ toasts: [...s.toasts, { id: Date.now(), ...t }] })),
   dismissToast: (id) =>
