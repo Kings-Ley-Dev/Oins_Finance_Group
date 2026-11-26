@@ -1,9 +1,9 @@
-export const formatUSD = (n) =>
-  new Intl.NumberFormat("en-US", {
+export const formatUSD = (n) => 
+  new Intl.NumberFormat("en-US", { 
     style: "currency",
     currency: "USD",
     maximumFractionDigits: 0,
-  }).format(Number(n) || 0);   
+  }).format(Number(n) || 0);
 
 export const formatCrypto = (n, symbol = "BTC") =>  
   `${(Number(n) || 0).toFixed(6)} ${symbol}`;  
